@@ -1,0 +1,261 @@
+{
+	"name": "vsmlrt-generic-gpu",
+	"type": "VSPlugin",
+	"category": "Other",
+	"description": "Efficient CPU/GPU/Vulkan ML Runtimes for VapourSynth (CUDA version)",
+	"website": "https://github.com/AmusementClub/vs-mlrt",
+	"github": "https://github.com/AmusementClub/vs-mlrt",
+	"identifier": "club.amusement.vsmlrt-generic-gpu",
+	"namespace": "vsmlrt-generic-gpu",
+	"releases": [
+		{
+			"version": "V13.2",
+			"published": "2023-05-28T15:01:17Z",
+			"win64": {
+				"url": "https://github.com/AmusementClub/vs-mlrt/releases/download/v13.2/vsmlrt-windows-x64-generic-gpu.v13.2.7z",
+				"files": {
+					"RealESRGANv2-animevideo-xsx2.onnx": [
+						"models/RealESRGANv2/RealESRGANv2-animevideo-xsx2.onnx",
+						"6fad590f96df553a5cc348a9c5129e7874504a7dcd414e4a15fb0b281fca7e0c"
+					],
+					"RealESRGANv2-animevideo-xsx4.onnx": [
+						"models/RealESRGANv2/RealESRGANv2-animevideo-xsx4.onnx",
+						"414de3a5da4c56652c99f3bc0b960910e3561835a6c7a9cca546475bc4792158"
+					],
+					"realesr-animevideov3.onnx": [
+						"models/RealESRGANv2/realesr-animevideov3.onnx",
+						"58425bdf2a28df7109aeefdc94d1b7366eac85414f6cd6f2fba41259f9d3307f"
+					],
+					"pro-conservative-up2x.onnx": [
+						"models/cugan/pro-conservative-up2x.onnx",
+						"391a30605ca4101b54ff968728512b344ef277d8dbd1f686b12f0bf6c0c2d9e8"
+					],
+					"pro-conservative-up3x.onnx": [
+						"models/cugan/pro-conservative-up3x.onnx",
+						"d9a36e8ecd2512e1425a1c9847040c9d95c236d72f9ae72cadd534b8819da5ae"
+					],
+					"pro-denoise3x-up2x.onnx": [
+						"models/cugan/pro-denoise3x-up2x.onnx",
+						"39d45f6bd3969f69af7348184ffacc4dfac4609a6c23dba4a3fc07548330bf76"
+					],
+					"pro-denoise3x-up3x.onnx": [
+						"models/cugan/pro-denoise3x-up3x.onnx",
+						"89bf6c826e8ffe64f360f1baa861db4f2058140a3bb57bfe6cc0b355c3f48582"
+					],
+					"pro-no-denoise3x-up2x.onnx": [
+						"models/cugan/pro-no-denoise3x-up2x.onnx",
+						"93492fa650d5cdb8aa4a26d694acfeca5e57e8c720849791e14bad3e4ec38df9"
+					],
+					"pro-no-denoise3x-up3x.onnx": [
+						"models/cugan/pro-no-denoise3x-up3x.onnx",
+						"bb79a315b3be3490e17e931791f3cae95af2ed7dd32cb452f5a0a79b0cbc63fb"
+					],
+					"up2x-latest-conservative.onnx": [
+						"models/cugan/up2x-latest-conservative.onnx",
+						"555bca3eb90caa37c7e1a02aec9cda3ca8479f252746c1885d382f87312f651c"
+					],
+					"up2x-latest-denoise1x.onnx": [
+						"models/cugan/up2x-latest-denoise1x.onnx",
+						"74ecabf4c1b3cbd1c2b03cc76116a9c25305b4560a5a085198a93206ac029ccb"
+					],
+					"up2x-latest-denoise2x.onnx": [
+						"models/cugan/up2x-latest-denoise2x.onnx",
+						"24b0faddfef109ebcc4a0871a2d142bf33a126916a481cd99732c98214e24181"
+					],
+					"up2x-latest-denoise3x.onnx": [
+						"models/cugan/up2x-latest-denoise3x.onnx",
+						"7bcb0510f9f989e681a51d39b7170883d3d5e75f1ec23ef5146e8ea50c3cc845"
+					],
+					"up2x-latest-no-denoise.onnx": [
+						"models/cugan/up2x-latest-no-denoise.onnx",
+						"3587278c3a7e62bbcb00a23b4de291ff906f62a88856ee457cbe4211cc593574"
+					],
+					"up3x-latest-conservative.onnx": [
+						"models/cugan/up3x-latest-conservative.onnx",
+						"827c95a767ecbdff7089f3ca0a96c6ef46eb7c6bd306ebbe1d76cc6beb8ac60d"
+					],
+					"up3x-latest-denoise3x.onnx": [
+						"models/cugan/up3x-latest-denoise3x.onnx",
+						"864b79239cbe58e46bf554e0223125ca723416cf8722dbe33f185a169e184b8d"
+					],
+					"up3x-latest-no-denoise.onnx": [
+						"models/cugan/up3x-latest-no-denoise.onnx",
+						"ddccf23f7ac0f15d10d22aa114cd11520cdb33e97c5f9a10794517f27c52be86"
+					],
+					"up4x-latest-conservative.onnx": [
+						"models/cugan/up4x-latest-conservative.onnx",
+						"7c109b9ccac88044a129ef6065be3efd1c45b73c0815ff208da79383af67507a"
+					],
+					"up4x-latest-denoise3x.onnx": [
+						"models/cugan/up4x-latest-denoise3x.onnx",
+						"ac93b7fd3c9c4363b644b8bd877e5ed21812c2b7acf0932668cfe4acaa4225b9"
+					],
+					"up4x-latest-no-denoise.onnx": [
+						"models/cugan/up4x-latest-no-denoise.onnx",
+						"14cbb48aa222fb2a9455e45bf97301b4c2d977240aad20849b140e1339647c72"
+					],
+					"drunet_color.onnx": [
+						"models/dpir/drunet_color.onnx",
+						"ae6af55252e268e9dd3f567e66b81227c98fd2846b3cb7febd9d0a6bbabb4617"
+					],
+					"drunet_deblocking_color.onnx": [
+						"models/dpir/drunet_deblocking_color.onnx",
+						"806a6d004f631d9726140035ce688088657695b734739edba83dc60f83d6eb10"
+					],
+					"drunet_deblocking_grayscale.onnx": [
+						"models/dpir/drunet_deblocking_grayscale.onnx",
+						"d08826ab176902a93cf637b32c6babd8b306b711858ff36e22efe27f8b03d809"
+					],
+					"drunet_gray.onnx": [
+						"models/dpir/drunet_gray.onnx",
+						"36efca77d215e8281140c94f22e0d461d2db368ebe0919ccde652bc10160e1f9"
+					],
+					"rife_v4.0.onnx": [
+						"models/rife/rife_v4.0.onnx",
+						"bd642212b1e6856e26670f8cad02d83a6fd429a69d3dc03f73b9178fcfd95d9e"
+					],
+					"rife_v4.2.onnx": [
+						"models/rife/rife_v4.2.onnx",
+						"c53b7cb68fc7897afbb6abcd9b1a9a8f8cff35d4c71b31c2c2dcb5c6e93384ed"
+					],
+					"rife_v4.3.onnx": [
+						"models/rife/rife_v4.3.onnx",
+						"d0b9fb2e1d7315a3ab58b2a773e72dcbdff640cdce8580c3d133ce6462a6dfb7"
+					],
+					"rife_v4.4.onnx": [
+						"models/rife/rife_v4.4.onnx",
+						"b4f8de5f4eba89fcf821cef099ab6d2a90d417221236193142791f31164aafc5"
+					],
+					"rife_v4.5.onnx": [
+						"models/rife/rife_v4.5.onnx",
+						"14f7acd826602e73a5a463a3c5d91364236fa4adc4ec17f612edb9fce766ab05"
+					],
+					"rife_v4.6.onnx": [
+						"models/rife/rife_v4.6.onnx",
+						"b210fbec2bdf94dd37eb255b96035c2d2a16dab3576c484822bbe72351b6cf4d"
+					],
+					"noise1_model.onnx": [
+						"models/waifu2x/photo/noise1_model.onnx",
+						"5a3a6750b10c9e63234ecc066701e47ca448e5c7529bb7c1a50f8af1de557183"
+					],
+					"noise2_model.onnx": [
+						"models/waifu2x/photo/noise2_model.onnx",
+						"28c1d5c7a52529dbe679b639074213bd4abfffb6d5d643f6c3ddcf66b91a092d"
+					],
+					"noise3_model.onnx": [
+						"models/waifu2x/photo/noise3_model.onnx",
+						"ae883615fde36142471e2c2569d9431c705b29bb95733c51adec3280d2da4028"
+					],
+					"scale2.0x_model.onnx": [
+						"models/waifu2x/upresnet10/scale2.0x_model.onnx",
+						"cfb590d8b8df9c93349d4f7e3dc52fa02054d1f034c55c07df489aba8c42bef6"
+					],
+					"noise0_model.onnx": [
+						"models/waifu2x/photo/noise0_model.onnx",
+						"7aba9559e22aa34e3f883b46a888405d052e99ad7ee03d76eeed205ce6d6f1aa"
+					],
+					"noise0_scale2.0x_model.onnx": [
+						"models/waifu2x/upresnet10/noise0_scale2.0x_model.onnx",
+						"0073723f062f158752d17d43852279ec2a287e5175779724e8fa6bc54b03131c"
+					],
+					"noise1_scale2.0x_model.onnx": [
+						"models/waifu2x/upresnet10/noise1_scale2.0x_model.onnx",
+						"3740d247fefb4ab4b587a565136549a43bdd909830571544f887076bd2d8abe6"
+					],
+					"noise2_scale2.0x_model.onnx": [
+						"models/waifu2x/upresnet10/noise2_scale2.0x_model.onnx",
+						"e9e8d05f5324328a34e303d832a7ec90e15dba99f7beac527c2c4a62775a1bea"
+					],
+					"noise3_scale2.0x_model.onnx": [
+						"models/waifu2x/upresnet10/noise3_scale2.0x_model.onnx",
+						"2e3196a4ab7a8accd39d35bc6f1b1bfa7fff2f64b8c203d24c78e059f3944c5b"
+					],
+					"vsmlrt.py": [
+						"vsmlrt.py",
+						"9813a2976577b9c3782c8a8d0d52e360f1000fac9b8d19dd346fd7d150612f47"
+					],
+					"vsncnn.dll": [
+						"vsncnn.dll",
+						"8a03546f2067128d541b44e3fac7b07de068fe92ac83d5a14adcb72a7b39614d"
+					],
+					"vsort.dll": [
+						"vsort.dll",
+						"76c8315a2b35d9cf901bc5262ace341be8b3785c2e2237b55070cb7dcfc2e605"
+					],
+					"DirectML.dll": [
+						"vsort/DirectML.dll",
+						"cc44fc08f1edb3cafca24de5361af11ce7ebd327bda2caa7936c632591f93393"
+					],
+					"onnxruntime.dll": [
+						"vsort/onnxruntime.dll",
+						"d8fc13b92f1020d22fbff604a19973a9be0028eeca409b89ead0e0979c5bdec3"
+					],
+					"vsov.dll": [
+						"vsov.dll",
+						"0fd7d95667f46603c1d3b5cd43d5351a7c978912792dfb883d595ae998cbdf01"
+					],
+					"cache.json": [
+						"vsov/cache.json",
+						"02ff26281180dc08ec2746406cd2af6383d39d1b7a6437b2d46dceb3f4f0964b"
+					],
+					"openvino.dll": [
+						"vsov/openvino.dll",
+						"c957a46529396d3b3b662f0ade5a56af7897ae9742c86be0d7af8a67351044e2"
+					],
+					"openvino_auto_batch_plugin.dll": [
+						"vsov/openvino_auto_batch_plugin.dll",
+						"269137072b1f77b152386a64adc3eb766baadf8f4af3f13ad9c267948a536f29"
+					],
+					"openvino_auto_plugin.dll": [
+						"vsov/openvino_auto_plugin.dll",
+						"e1470336ceb515d06420be611853503cba3c677f38757054956a31c7a16b4d09"
+					],
+					"openvino_c.dll": [
+						"vsov/openvino_c.dll",
+						"99359bcf1752f385e9fc3cdd248994bf2014ea8cc8d76c19d3d3c52fff7b4219"
+					],
+					"openvino_hetero_plugin.dll": [
+						"vsov/openvino_hetero_plugin.dll",
+						"6e0535c30c0927b28eb0c4e8603a678db288358f7268d42dfecd458364381ccc"
+					],
+					"openvino_intel_cpu_plugin.dll": [
+						"vsov/openvino_intel_cpu_plugin.dll",
+						"dc9e1291a6e9f31ff80890fd8f477c2a06545da9f0778319d26656777626d0fa"
+					],
+					"openvino_intel_gpu_plugin.dll": [
+						"vsov/openvino_intel_gpu_plugin.dll",
+						"c9178dcad68e98e75948d6a52afe2e077040f06c5170793cc150059f8815250f"
+					],
+					"openvino_ir_frontend.dll": [
+						"vsov/openvino_ir_frontend.dll",
+						"f364b5531a18298b7cad4596eff11270a8a7aec324365497a68d4236d824ed84"
+					],
+					"openvino_onnx_frontend.dll": [
+						"vsov/openvino_onnx_frontend.dll",
+						"064109a94c99a089edffa885725edc1a575c04d3570a6e0bb607f8df9e6bec9e"
+					],
+					"openvino_pytorch_frontend.dll": [
+						"vsov/openvino_pytorch_frontend.dll",
+						"ae8a91738f5ae50607f8c09287185884c72435b60c7a38f13630058ef7f31806"
+					],
+					"openvino_tensorflow_frontend.dll": [
+						"vsov/openvino_tensorflow_frontend.dll",
+						"0b7c0dd3929b031df6869c7ade77cafb4a458dd8b743329ab1a29f468776c5c9"
+					],
+					"openvino_tensorflow_lite_frontend.dll": [
+						"vsov/openvino_tensorflow_lite_frontend.dll",
+						"2f174b880cfc7e92589d3257271463f06288c8658344bdab436e7576ac9b3608"
+					],
+					"plugins.xml": [
+						"vsov/plugins.xml",
+						"2b893859f87e5b71b96b21a7e905d01bf95bb3d1670e52d2dab2af5b62957d60"
+					],
+					"tbb.dll": [
+						"vsov/tbb.dll",
+						"7d46d20175870c9694cdfc3a62e6b60d44aad5a29a54400a8628fa92e5bf04ec"
+					]
+				}
+			}
+		}
+	]
+}
