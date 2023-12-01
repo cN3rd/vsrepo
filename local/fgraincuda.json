@@ -1,0 +1,28 @@
+{
+	"name": "fgrain-cuda",
+	"type": "VSPlugin",
+	"category": "Other",
+	"description": "Realistic Film Grain Rendering for VapourSynth, implemented in CUDA",
+	"github": "https://github.com/AmusementClub/vs-fgrain-cuda",
+	"identifier": "io.github.amusementclub.fgrain-cuda",
+	"namespace": "fgrain-cuda",
+	"device": [
+		"cuda"
+	],
+    "api": 4,
+	"releases": [
+		{
+			"version": "v1",
+			"published": "2023-05-25T06:04:05Z",
+			"win64": {
+				"url": "https://github.com/AmusementClub/vs-fgrain-cuda/releases/download/v1/fgrain_cuda.dll",
+				"files": {
+					"fgraincuda.dll": [
+						"fgraincuda.dll",
+						"5b3961115b6ff76296bc0f536825f4ce15bbc09e555a3c0d091d4e30c6cae0a3"
+					]
+				}
+			}
+		}
+	]
+}
