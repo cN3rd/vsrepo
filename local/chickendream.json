@@ -1,0 +1,56 @@
+{
+	"name": "ChickenDream",
+	"type": "VSPlugin",
+	"category": "Other",
+	"description": "Realistic film grain generator.",
+	"website": "https://gitlab.com/EleonoreMizo/chickendream",
+	"identifier": "com.chkdr.grain",
+	"namespace": "chickendream",
+	"api": 4,
+	"releases": [
+        {
+			"version": "r2",
+			"published": "2022-06-02T12:42:19Z",
+			"win32": {
+				"url": "https://github.com/EleonoreMizo/chickendream/releases/download/r2/chickendream-r2.zip",
+				"files": {
+					"chickendream.dll": [
+						"win32/chickendream.dll",
+						"cf0134b20ca7ef397083539748f8b17fca29e510d9078a9f69b50aa58842d733"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/EleonoreMizo/chickendream/releases/download/r2/chickendream-r2.zip",
+				"files": {
+					"chickendream.dll": [
+						"win64/chickendream.dll",
+						"04ccd55f8fa2b39f9ce1bd8e50582608aeacbf998fcb3bcb0860a7c91bb31453"
+					]
+				}
+			}
+		},
+		{
+			"version": "r1",
+			"published": "2022-04-11T16:04:22Z",
+			"win32": {
+				"url": "https://github.com/EleonoreMizo/chickendream/releases/download/r1/chickendream-r1.zip",
+				"files": {
+					"chickendream.dll": [
+						"win32/chickendream.dll",
+						"aa7c997a090e01c98196c3ded986b377c3f00944e2808ba3885efb57ae82c47f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/EleonoreMizo/chickendream/releases/download/r1/chickendream-r1.zip",
+				"files": {
+					"chickendream.dll": [
+						"win64/chickendream.dll",
+						"72eda57232cb46cca6291d3c7bb649bd34677a6a1975348623821af2f48a6a3b"
+					]
+				}
+			}
+		}
+	]
+}
