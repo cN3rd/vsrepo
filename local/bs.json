@@ -1,0 +1,39 @@
+{
+	"name": "bestsource",
+	"type": "VSPlugin",
+	"category": "Source/Output",
+	"description": "A super great audio source and FFmpeg wrapper",
+	"doom9": "https://forum.doom9.org/showthread.php?p=1972253",
+	"github": "https://github.com/vapoursynth/bestsource",
+	"identifier": "com.vapoursynth.bestsource",
+	"namespace": "bs",
+	"api": 4,
+	"releases": [
+        {
+			"version": "master-20e2135",
+			"published": "2023-10-10T15:25:35Z",
+			"win64": {
+				"url": "https://github.com/vapoursynth/bestsource/suites/17070517606/artifacts/975029028",
+				"files": {
+					"libbestsource.dll": [
+						"libbestsource.dll",
+						"fefe57fbf96d0da881d127fd00ca80472aee0ed9e179821f428930f8eb043a23"
+					]
+				}
+			}
+		},
+        {
+			"version": "test7",
+			"published": "2022-07-19T19:16:00Z",
+			"win64": {
+				"url": "https://www.dropbox.com/s/vc5sgx4a1ndawck/bestsource-test7.7z?dl=1",
+				"files": {
+					"BestSource.dll": [
+						"BestSource.dll",
+						"00b53e8f7834cf4863cb9c8608d68d4dace35f41dc9091ff6585b95c667a835a"
+					]
+				}
+			}
+		}
+	]
+}
