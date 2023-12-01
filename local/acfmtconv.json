@@ -1,0 +1,123 @@
+{
+	"name": "acfmtconv",
+	"type": "VSPlugin",
+	"description": "High quality bitdepth, colorspace conversion and resizing",
+	"website": "https://github.com/AmusementClub/fmtconv",
+	"category": "Resizing and Format Conversion",
+	"identifier": "club.amusement.fmtconv",
+	"namespace": "fmtc",
+	"github": "https://github.com/AmusementClub/fmtconv",
+	"api": 4,
+	"releases": [
+		{
+			"version": "r29.AC",
+			"published": "2022-08-01T03:32:56Z",
+			"win32": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r29.AC/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r29.AC/Win32/fmtconv/fmtconv.dll",
+						"41d0d76f06aacbf1b20065091b707a73a592d504dc64566112ffa519afc8b856"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r29.AC/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r29.AC/x64/fmtconv/fmtconv.dll",
+						"4a65d3aaa5adc7161ded57a17189a5764784c987d307955936926bb804f420ba"
+					]
+				}
+			}
+		},
+		{
+			"version": "r28.A",
+			"published": "2021-11-25T05:12:31Z",
+			"win32": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r28.A/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-b436063/x86/fmtconv/fmtconv.dll",
+						"3bdc96bc7dae33b921464f92e43e31d1a8509242f40f1a95a579cbeb101420b7"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r28.A/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-b436063/x64/fmtconv/fmtconv.dll",
+						"817f57b0b4482b1f073048ab15b99d70a63820ce58ff4ff1a705c51aa2dae327"
+					]
+				}
+			}
+		},
+		{
+			"version": "r23.A",
+			"published": "2021-07-27T08:06:07Z",
+			"win32": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r23.A/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r23.A/x86/fmtconv.dll",
+						"d24c74f15c06434b16f60de15288c7329a73dbb33470c5609a368f2af609485e"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r23.A/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r23.A/x64/fmtconv.dll",
+						"5632e1d13929bb6b2e8400d92dc962d0a710bcb10dfa09dd93c7f1f236d1f88a"
+					]
+				}
+			}
+		},
+		{
+			"version": "r22.C",
+			"published": "2021-05-22T08:37:29Z",
+			"win32": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r22.C/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r22.C/x86/fmtconv.dll",
+						"02f35fff26f83e34212ee785d6884792eeb7cd2c2ef700bf222ca149264079f5"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r22.C/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r22.C/x64/fmtconv.dll",
+						"da58f2967b5c4911d0440ff176531bf750b44aa40f19e9dc6e7ad6e6fec6054b"
+					]
+				}
+			}
+		},
+		{
+			"version": "r22.B",
+			"published": "2021-05-22T07:30:30Z",
+			"win32": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r22.B/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r22.B/x86/fmtconv.dll",
+						"f1c2842ed26183c9efee246cada6b7a789a82f6e25169f06752031c52db6c64f"
+					]
+				}
+			},
+			"win64": {
+				"url": "https://github.com/AmusementClub/fmtconv/releases/download/r22.B/fmtconv-release.zip",
+				"files": {
+					"fmtconv.dll": [
+						"release-r22.B/x64/fmtconv.dll",
+						"1bad8e4f19820c0581626f36787baa170825b36b012be24a55814d66d2baedcd"
+					]
+				}
+			}
+		}
+	]
+}
