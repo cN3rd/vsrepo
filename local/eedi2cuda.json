@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"category": "Deinterlacing",
 	"description": "EEDI2 filter using CUDA",
-	"github": "https://github.com/AmusementClub/VapourSynth-EEDI2CUDA",
+	"website": "https://github.com/AmusementClub/VapourSynth-EEDI2CUDA",
 	"identifier": "club.amusement.eedi2cuda",
 	"namespace": "eedi2cuda",
 	"device": ["cuda"],
