@@ -1,0 +1,29 @@
+{
+	"name": "SNEEDIF",
+	"type": "VSPlugin",
+	"description": "Setsugen No Ensemble of Edge Directed Interpolation Functions",
+	"website": "https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-SNEEDIF",
+	"category": "Deinterlacing",
+	"identifier": "xxx.abc.sneedif",
+	"namespace": "sneedif",
+	"github": "https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-SNEEDIF",
+	"dependencies": [
+		"com.deinterlace.nnedi3.weights"
+	],
+    "api": 4,
+	"releases": [
+		{
+			"version": "master-d5b52ab",
+			"published": "2023-11-08T01:26:42+02:00",
+			"win64": {
+				"url": "https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-SNEEDIF/suites/17995715625/artifacts/1035232845",
+				"files": {
+					"libsneedif.dll": [
+						"libsneedif.dll",
+						"7eddf287a20400604f7d0ccab9a37b5a6ffd4163bf9fa114408fdad17331aaae"
+					]
+				}
+			}
+		}
+	]
+}
