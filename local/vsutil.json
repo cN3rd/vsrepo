@@ -2,12 +2,12 @@
 	"name": "VSUtil",
 	"type": "PyWheel",
 	"description": "A collection of general-purpose Vapoursynth functions to be reused in modules and scripts.",
-	"website": "https://github.com/Irrational-Encoding-Wizardry/vsutil",
+	"website": "https://github.com/Jaded-Encoding-Thaumaturgy/vsutil",
 	"category": "Other",
 	"identifier": "vsutil",
 	"modulename": "vsutil",
 	"wheelname": "vsutil",
-	"github": "https://github.com/Irrational-Encoding-Wizardry/vsutil",
+	"github": "https://github.com/Jaded-Encoding-Thaumaturgy/vsutil",
 	"releases": [
 		{
 			"version": "0.8.0",

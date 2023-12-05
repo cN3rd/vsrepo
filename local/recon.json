@@ -3,7 +3,7 @@
 	"type": "VSPlugin",
 	"category": "Other",
 	"description": "Make chroma great again",
-	"github": "https://github.com/Irrational-Encoding-Wizardry/vapoursynth-reconstruct",
+	"github": "https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-reconstruct",
 	"identifier": "dev.setsugen.reconstruct",
 	"namespace": "recon",
 	"releases": [

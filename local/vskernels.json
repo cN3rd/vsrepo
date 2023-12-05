@@ -3,7 +3,7 @@
 	"type": "PyWheel",
 	"category": "Resizing and Format Conversion",
 	"description": "Kernels are a collection of wrappers pertaining to (de)scaling, format conversion, and other related operations, all while providing a consistent and clean interface.",
-	"github": "https://github.com/Irrational-Encoding-Wizardry/vs-kernels",
+	"github": "https://github.com/Jaded-Encoding-Thaumaturgy/vs-kernels",
 	"identifier": "vskernels",
 	"modulename": "vskernels",
 	"wheelname": "vskernels",

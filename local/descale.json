@@ -2,12 +2,12 @@
 	"name": "Descale",
 	"type": "VSPlugin",
 	"description": "Undoes resizing",
-	"website": "https://github.com/Irrational-Encoding-Wizardry/descale",
+	"website": "https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-descale",
 	"doom9": "https://forum.doom9.org/showthread.php?t=174570",
 	"category": "Resizing and Format Conversion",
 	"identifier": "tegaf.asi.xe",
 	"namespace": "descale",
-	"github": "https://github.com/Irrational-Encoding-Wizardry/descale",
+	"github": "https://github.com/Jaded-Encoding-Thaumaturgy/vapoursynth-descale",
 	"api": 4,
 	"releases": [
 		{
